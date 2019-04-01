@@ -1,0 +1,164 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.event span {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.event {
+  position: relative;
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
+  margin-left: 23px;
+}
+
+.event .see-all {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: #6fa1fb;
+  position: absolute;
+  right: 0;
+}
+
+.event .main-event {
+  display: flex;
+  margin-top: 22px;
+}
+
+.event .typeEvent {
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  width: 330px;
+  height: 350px;
+  background-image: url(https://www.geventm.com/wp-content/uploads/2015/11/networking-events-uae.jpg);
+  background-size: cover;
+  background-position: 0 -80px;
+  margin-right: 20px;
+}
+
+.event .typeEvent:hover {
+  transform: translate(0, -1px);
+  transition: 0.3s;
+}
+
+.event .typeEvent1 {
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  width: 330px;
+  height: 350px;
+  background-image: url(http://www.maharshimysore.edu.in/components/com_community/assets/cover-event.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+}
+
+.event .overlay {
+  border-radius: 10px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #5e0abb5e;
+}
+
+.event .overlay .time {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background: #FFF;
+}
+
+.event .overlay .info-event {
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #FFF;
+  border-radius: 0 0 10px 10px;
+}
+
+
+.event .overlay .time p {
+  font-size: 12px;
+  margin: 0px;
+}
+
+.event .overlay .info-event p {
+  padding-left: 21px;
+  margin: 5px 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.event .overlay .info-event p:first-child {
+  margin: 15px 0;
+  color: #3a3636d1;
+  font-weight: normal;
+}
+
+
+.event .overlay .time p:first-child {
+  font-size: 25px;
+  color: #e83d3d;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.event .overlay .info-event a {
+  text-decoration: none;
+  color: black;
+}
+
+.event .overlay .hoster {
+  margin: 15px 0;
+  display: flex;
+  font-family: Arial, sans-serif;
+  color: #00000080;
+}
+
+.event .overlay .hoster .avatar {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 25px;
+  background-image: url(https://static.invenglobal.com/upload/image/2017/07/08/i1499512392453202.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.event .overlay .hoster .avatar1 {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 25px;
+  background-image: url(http://www.clipartroo.com/images/0/smile-clipart-533.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.hoster .info-hoster {
+  padding: 5px 13px;
+}
+
+.event .overlay .hoster .info-hoster p {
+  margin: 0;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.event .overlay .hoster .info-hoster a {
+  text-decoration: none;
+  color: black;
+}
+
+.event .overlay .hoster .info-hoster a:hover {
+  text-decoration: underline;
+}

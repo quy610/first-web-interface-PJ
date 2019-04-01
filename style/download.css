@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.download {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Arial, sans-serif;
+}
+
+
+.download .img-download {
+  width: 300px;
+  height: 300px;
+  background-image: url(https://purepng.com/public/uploads/large/purepng.com-apple-iphone-x-in-handsappleapple-iphonephonesmartphonemobile-devicetouch-screeniphone-xiphone-10electronicsobjects-251530689631x6d3i.png);
+  background-size: cover;
+  background-position: top;
+}
+
+.download .get-app {
+  display: flex;
+}
+
+.download .store-app {
+  display: flex;
+  background: black;
+  color: #FFF;
+  border-radius: 5px;
+  margin-right: 12px;
+}
+
+.download .store-app i {
+  font-size: 40px;
+  padding: 10px 10px 10px 13px;
+}
+
+.download .where {
+  padding: 10px 13px 10px 5px;
+}
+
+.download .detail-download i {
+  font-size: 12px;
+  padding-left: 12px;
+  padding-bottom: 40px;
+}
+
+.download p {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  padding-top: 40px;
+  color: #000000bf;
+}
+
+.download a {
+  text-decoration: none;
+}
+
+.download .detail-download a {
+  color: #00a2c7;
+}
+
+.download span {
+  font-size: 20px;
+}
+
+.download span:first-child {
+  font-size: 12px;
+}

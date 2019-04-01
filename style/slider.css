@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.slider {
+  width: 100%;
+  height: 450px;
+  background-color: #DDD;
+  background-image: url('https://www.etiqa.com.sg/wp-content/uploads/2018/07/TravelClaims_Featured_1200x628c-compressed.jpg');
+  background-size: cover;
+  background-position: center; 
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  padding-top: 59px;
+}
+.slider .overlay{
+  height: 100%;
+  width: 100%;
+  background: rgb(0,0,0, .2);
+  font-family: Arial, sans-serif;
+  color: #FFF;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider .overlay p:first-child {
+  font-size: 41px;
+  font-weight: bold;
+  margin: -10px;
+}
+
+.slider button {
+  background: #de2551;
+  padding: 15px 90px;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+.slider button:hover {
+  background: #d21b46;
+}
+
+

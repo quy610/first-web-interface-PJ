@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+img {
+  width: 130px;
+  height: 90px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.login {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.login a {
+  text-decoration: none;
+  color: #929292;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.login a:first-child {
+  font-weight: bold;
+  color: #529cdc;
+  border-right: 1px solid #929292;
+  padding-right: 10px;
+}

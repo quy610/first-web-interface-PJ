@@ -1,0 +1,62 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contact {
+  font-family: Arial, sans-serif;
+  background-color: #0f1721;
+  color: #FFF;
+}
+
+.contact .howto-contact {
+  padding: 0 150px;
+  display: flex;
+  padding-bottom: 100px; 
+}
+
+.contact .howto-contact .start {
+  margin-left: 101px;
+}
+
+.contact .method {
+  padding-left: 20px;
+}
+
+.contact .join-start {
+  display: flex;
+  padding-left: 20px;
+}
+
+.contact p:first-child {
+  margin-top: 0;
+  padding: 70px 0 10px 0;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact span {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.contact i {
+  font-size: 50px;
+  color: #00a2c7;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #00a2c7;
+}
+
+.contact .method i {
+  font-size: 15px;
+  padding-left: 20px;
+  
+}
+
+.contact .method p {
+  margin: 2px 0 20px 0;
+}

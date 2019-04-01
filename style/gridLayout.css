@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header header"
+    "slider slider slider slider slider"
+    "navigation navigation navigation navigation navigation"
+    ". event event event ."
+    ". category category category ."
+    "contact contact contact contact contact"
+    ". download download download ."
+    "footer footer footer footer footer"
+}
+
+
+.download {
+	grid-area: download;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.header {
+  grid-area: header;
+}
+
+.slider {
+	grid-area: slider;
+}
+
+.navigation {
+	grid-area: navigation;
+}
+
+.event {
+	grid-area: event;
+}
+
+.category {
+	grid-area: category;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+.footer {
+  grid-area: footer;
+}
